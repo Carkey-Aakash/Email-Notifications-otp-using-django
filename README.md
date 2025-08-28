@@ -1,0 +1,1 @@
+# Email-Notifications-otp-using-django
