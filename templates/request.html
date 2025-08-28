@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+ {% block content%}
+Results are coming:..........<br>
+The sum is:{{sum}}<br>
+The difference is:{{diff}}
+<br>
+The items are using for loop<br>
+{% for item in res %}
+
+{{item}}<br>
+{% endfor %}
+
+ {%endblock %}
